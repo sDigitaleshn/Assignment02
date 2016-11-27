@@ -23,7 +23,7 @@ section {
 	}
 p {
 	color: black;
-	padding: 20px 10px 0px 10px;
+	padding: 30px 10px 0px 10px;
 	font-family: arial;
 	text-align: justify;
 	}
@@ -31,7 +31,6 @@ p {
 	border: 1px solid black;
 	background-color: rgb(102,125,78);
 	position: relative;
-	margin: 0px 5px 0px 5px;
 	float: left;
 	}
 #Box1Header {
@@ -46,7 +45,6 @@ p {
 	border: 1px solid black;
 	background-color: rgb(187,62,69);
 	position: relative;
-	margin: 0px 5px 0px 5px;
 	float: left;
 	}
 #Box2Header {
@@ -61,7 +59,6 @@ p {
 	border: 1px solid black;
 	background-color: rgb(98,102,104);
 	position: relative;
-	margin: 0px 5px 0px 5px;
 	float: left;
 	}
 #Box3Header {
@@ -76,25 +73,30 @@ p {
 @media (min-width: 992px) {
 	#Box1Container {
 		width: 32%;
+		margin: 0px 5px 0px 5px;
 	}
 	#Box2Container {
 		width: 32%;
+		margin: 0px 5px 0px 5px;
 	}
 	#Box3Container {
 		width: 32%;
+		margin: 0px 5px 0px 5px;
 	}
 }
 /* Medium Devices */
 @media (min-width: 768px) and (max-width: 991px) {
 	#Box1Container {
-		width: 48%;
+		width: 48.5%;
+		margin: 0px 5px 0px 5px;
 	}
 	#Box2Container {
-		width: 48%;
-		margin: 0px 5px 0px 12px;
+		
+		width: 48.5%;
+		margin: 0px 5px 0px 5px;
 	}
 	#Box3Container {
-		width: auto;
+		width: 98%;
 		margin: 20px 5px 0px 5px;
 		clear: left;
 	}
@@ -103,14 +105,14 @@ p {
 @media (max-width: 767px) {
 	#Box1Container {
 		width: auto;
-		margin: 0px 5px 10px 5px;
+		margin: 0px 10px 10px 10px;
 	}
 	#Box2Container {
 		width: auto;
-		margin: 10px 5px 10px 5px;
+		margin: 10px 10px 10px 10px;
 	}
 	#Box3Container {
 		width: auto;
-		margin: 10px 5px 0px 5px;
+		margin: 10px 10px 0px 10px;
 	}
 }
